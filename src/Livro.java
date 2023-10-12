@@ -1,4 +1,4 @@
-import java.util.Date;
+import java.time.LocalDate;
 
 public class Livro {
 
@@ -8,6 +8,10 @@ public class Livro {
 
     public Float preco;
 
-    public Date dataLancamento;
+    public LocalDate dataLancamento;
 
+    public LocalDate CalcularTempoLanc(LocalDate dataLancamento) {
+        return dataLancamento;
+
+    }
 }
